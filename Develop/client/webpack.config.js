@@ -22,6 +22,7 @@ module.exports = () => {
       // Webpack plugin that generates our html file and injects our bundles
       new HtmlWebpackPlugin({
         template: './index.html',
+        title: 'JATE'
       }),
       // Injects our custom service worker
       new InjectManifest({
@@ -30,9 +31,11 @@ module.exports = () => {
       }),
       // Creates a manifest.json file 
       new WebpackPwaManifest({
-        name: 'Text Editor',
-        short_name: 'TextEditor',
-        description: 'Simply a text editor',
+        fingerprints: false,
+        inject: true,
+        name: 'Just Another Text Editor',
+        short_name: 'JATE',
+        description: 'Just another text editor',
         background_color: '#7eb4e2',
         theme_color: '#7eb4e2',
         start_url: './',
@@ -57,6 +60,8 @@ module.exports = () => {
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
+
+          // We use babel-loader in order to use ES6.
           use: {
             loader: 'babel-loader',
             options: {
