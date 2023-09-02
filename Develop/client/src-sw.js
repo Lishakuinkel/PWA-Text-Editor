@@ -5,6 +5,8 @@ const { CacheableResponsePlugin } = require('workbox-cacheable-response');
 const { ExpirationPlugin } = require('workbox-expiration');
 const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
 
+// this method takes an array of URLs to precache.
+// self._WB_MANIFEST is an array that contains the list of URLs to precache
 precacheAndRoute(self.__WB_MANIFEST);
 
 const pageCache = new CacheFirst({
