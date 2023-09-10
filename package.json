@@ -1,6 +1,9 @@
 {
   "name": "jate",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.16.0"
+  },
   "description": "Just a Text Editor app that meets all the PWA critera",
   "main": "server.js",
   "scripts": {
