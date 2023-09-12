@@ -13,13 +13,22 @@ Clone this repo and run ```npm i``` then start the app with ```npm start```
 
 
 Installed app 
+
 <img width="787" alt="image" src="https://github.com/Lishakuinkel/PWA-Text-Editor/assets/130411719/decc190a-5daa-4575-bb58-f4b2976a2022">
 
 App's registered Service Workers 
+
 <img width="1189" alt="image" src="https://github.com/Lishakuinkel/PWA-Text-Editor/assets/130411719/e68f413f-3661-44b9-b8c1-d982de78bcac">
 
 Manifest file
+
 <img width="1186" alt="image" src="https://github.com/Lishakuinkel/PWA-Text-Editor/assets/130411719/1b210eae-0dab-4f17-be30-e40105d24256">
 
 IndexedDB storage
+
 <img width="1188" alt="image" src="https://github.com/Lishakuinkel/PWA-Text-Editor/assets/130411719/ffefe438-e7b3-4fe1-a348-10b89d993b44">
+
+
+## Contact Me
+Email me at ltkuinkel@gmail.com 
+Github https://github.com/Lishakuinkel
