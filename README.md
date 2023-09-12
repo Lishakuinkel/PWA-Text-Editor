@@ -1,9 +1,9 @@
 # PWA-Text-Editor
 
-JATE is a single-page progressive web application that allows users to create notes and retrieve them with or without internet connection. The integrated service worker and Cache APIs ensure that application will remain fully functional also in offline mode. This application has been deployed to Heroku.
+JATE is a single-page progressive web application that allows users to create notes and retrieve them with or without internet connection. The integrated service worker and Cache APIs ensure that application will remain fully functional also in offline mode. 
 
 ## Technologies used
-Node.js, Express.js, IndexedDB, Concurrently, Mini-CSS-Extract Plugin, Webpack+Workbox, Babel packages, Heroku. 
+Node.js, Express.js, IndexedDB, Concurrently, Mini-CSS-Extract Plugin, Webpack+Workbox, Babel packages. This app has been deployed to Heroku. 
 
 ## Installation 
 Live deployed url : https://intense-plains-37109-c1307c5185c1.herokuapp.com/
