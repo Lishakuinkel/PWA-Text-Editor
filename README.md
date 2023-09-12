@@ -3,7 +3,7 @@
 JATE is a single-page progressive web application that allows users to create notes and retrieve them with or without internet connection. The integrated service worker and Cache APIs ensure that application will remain fully functional also in offline mode. This application has been deployed to Heroku.
 
 ## Technologies used
-Node.js, Express.js, IndexedDB, Concurrently, Mini-CSS-Extract Plugin, Webpack+Workbox, Babel packages. 
+Node.js, Express.js, IndexedDB, Concurrently, Mini-CSS-Extract Plugin, Webpack+Workbox, Babel packages, Heroku. 
 
 ## Installation 
 Live deployed url : https://intense-plains-37109-c1307c5185c1.herokuapp.com/
@@ -28,6 +28,13 @@ IndexedDB storage
 
 <img width="1188" alt="image" src="https://github.com/Lishakuinkel/PWA-Text-Editor/assets/130411719/ffefe438-e7b3-4fe1-a348-10b89d993b44">
 
+
+## References
+https://www.freecodecamp.org/news/what-are-progressive-web-apps/
+
+https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
+
+https://devcenter.heroku.com/articles/getting-started-with-nodejs
 
 ## Contact Me
 Email me at ltkuinkel@gmail.com 
